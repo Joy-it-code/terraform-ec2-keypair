@@ -240,7 +240,7 @@ This project demonstrated Infrastructure as Code (IaC) with Terraform, automatin
 It highlighted the importance of security settings, key management, and automated server provisioning.
 
 
-### Create a New GitHub Repository named:
+### Create a New GitHub Repository without initializing it:
 ```
 terraform-ec2-keypair
 ```
@@ -265,7 +265,13 @@ git add .
 git commit -m "Initial commit with .gitignore"
 ```
 
-### Connect to a Remote Repository (Optional)
+### Rename the Branch to main
+```
+git branch -m master main
+```
+
+
+### Connect to a Remote Repository
 ```
 git remote add origin https://github.com/yourusername/your-repository.git
 ```
